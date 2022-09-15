@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="display-4 mp-4">Fetch Api Sandbox</h1>
+        <div class="d-flex">
+            <button class="btn btn-primary m-4" id="getText">Get Text</button>
+            <button class="btn btn-success m-4" id="getUser">Get json</button>
+            <button class="btn btn-warning m-4" id="getPosts">Get Api Data</button>
+        </div>
+        <hr>
+        <div id="output"></div>
+
+        <form action="" id="addPost">
+
+            <div class="form-group">
+                <input type="text" name="" id="title" placeholder="Title" class="form-control mb-3">
+            </div>
+            <div class="form-group">
+                <textarea id="body" placeholder="body" class="form-control mb-1"></textarea>
+            </div>
+            <input type="submit" value="submit" class="btn btn-secondary mt-2">
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
